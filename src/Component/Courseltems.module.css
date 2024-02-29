@@ -1,5 +1,7 @@
 .PageCourse {
     direction: rtl;
+    margin-bottom: 50px;
+
 
 }
 
@@ -35,4 +37,38 @@ margin-right: 15px;
 }
 .PageCourse .listCourse .itemtext span{
     margin-right: 5px;
+}
+
+.itemsBooks{
+    direction: rtl;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+.itemsBooks .itemCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.itemsBooks .itemCards img{
+margin-bottom: 10px;
+}
+.itemsBooks .itemCards span{
+    font-size: 12px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 1px 9px 0 rgba(0,0,0,0.25);
+    padding: 3px;
+    border-radius: 15px;
+    color: #9a9797;
+    background-color: #ffffff;
+    width: 86px;
+    text-align: center;
+    height: 26px;
+    margin-top: -10px;
+}
+.itemsBooks .itemCards p{
+font-size: 11px;
 }
