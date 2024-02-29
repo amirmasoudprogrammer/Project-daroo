@@ -1,0 +1,87 @@
+.Links {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    height: 90px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.Links .Pages {
+    display: flex;
+
+}
+.Links .PageImg img {
+    width: 100px;
+    height: 65px;
+}
+
+.Links .PageTexts {
+    margin-right: 15px;
+}
+
+.Links .PageTexts .Texts {
+    width: 197px;
+}
+
+.Links .PageTexts .Texts span {
+    font-size: 13px;
+}
+
+.Links .PageTexts .textbotton {
+    width: 100px;
+}
+
+.Links .PageTexts .textbotton .listtexts {
+    width: 200px;
+}
+
+.Links .PageTexts .textbotton .listtexts li {
+    font-size: 10px;
+}
+
+.Links .PageTexts .textbotton .listtexts li span {
+    font-size: 10px;
+    margin-right: 5px;
+}
+@media (max-width: 1500px) {
+  .Links{
+      display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+    .Links{
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Links{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .Links{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .Links{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .Links{
+        display: none;
+    }
+}
+@media (max-width: 360px) {
+    .Links{
+        display: block;
+    }
+}
+

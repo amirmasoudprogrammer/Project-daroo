@@ -1,0 +1,213 @@
+/* slid card main one page*/
+.Slid {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 21px;
+
+}
+
+/* slid card main one page*/
+
+
+/*item Card main Shared courses*/
+.itemPageShared {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemPageShared .itemShared {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemPageShared .itemShared .textPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.itemPageShared .itemShared .textPage span {
+    margin-right: 5px;
+    font-size: 14px;
+
+}
+
+.itemPageShared .itemShared .textPage img {
+    width: 18px;
+    height: 14.14px;
+    margin-top: -3px;
+    margin-left: 2px;
+}
+
+.itemPageShared .itemShared .textNextPage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.itemPageShared .itemShared .textNextPage a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3px;
+    width: 70px;
+}
+
+.itemPageShared .itemShared .textNextPage a span {
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.itemPageShared .itemShared .textNextPage a img {
+    width: 6px;
+    height: 10px;
+    object-fit: cover;
+}
+
+.Carditem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 86%;
+    margin-top: 10px;
+}
+
+.PagemainCard {
+    direction: rtl;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/*item Card main Shared courses*/
+
+/*page Latest videos*/
+.CardEnd {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    margin: 13px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.CardEnd span {
+    font-size: 16px;
+
+}
+
+.CardEnd .List {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.CardEnd ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 385px;
+}
+
+.CardEnd ul li {
+    font-size: 12px;
+    color: #B2B2B2;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.CardEnd ul li.active {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #0157F0;
+    color: black;
+    font-weight: bold;
+}
+
+.CardEnd .EndPageCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+/*page Latest videos*/
+
+
+@media (max-width: 1500px) {
+    .itemPageShared {
+        display: none;
+    }
+    .CardEnd{
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .itemPageShared {
+        display: none;
+    }
+    .CardEnd{
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .itemPageShared {
+        display: none;
+    }
+    .CardEnd{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .itemPageShared {
+        display: none;
+    }
+    .CardEnd{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .itemPageShared {
+        display: none;
+    }
+    .CardEnd{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .itemPageShared {
+        display: none;
+    }
+    .CardEnd{
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .itemPageShared {
+        display: block;
+    }
+    .CardEnd{
+        display: block;
+    }
+}

@@ -1,0 +1,99 @@
+.Link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.Link .CardPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.Link .CardPage .Caedimg {
+    position: relative;
+}
+
+.Link .CardPage .Caedimg img {
+    width: auto;
+    height: auto;
+}
+
+.Link .CardPage .Caedimg .IconNumber {
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+
+.Link .CardPage .CardText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 13px;
+
+}
+
+.Link .CardPage .CardText .TextICON {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+
+}
+
+.Link .CardPage .CardText .TextICON p {
+    margin-top: 20px;
+    margin-right: 6px;
+}
+
+.Link .CardPage .CardText .TextICON img {
+    background-color: #FFD200;
+    width: 19px;
+    height: 19px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.Link .CardPage .CardText span {
+    text-align: end;
+}
+
+.Link .CardPage .Textfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.Link .CardPage .Textfooter ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 180px;
+}
+
+.Link .CardPage .Textfooter ul li {
+    font-size: 10px;
+    color: #B3B7C0;
+
+}
+
+.Link .CardPage .Textfooter ul .listitem {
+
+}
+
+.Link .CardPage .Textfooter ul .listitem span {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.Link .CardPage .Textfooter ul .listitem img {
+    width: 9px;
+
+}

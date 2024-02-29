@@ -1,0 +1,88 @@
+.PageComment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 45px;
+    background-color: #EEEEEE;
+    padding: 18px;
+    border-radius: 10px;
+    width: 335px;
+    height: 205px;
+    border: 1px solid #F1F1F1;
+}
+
+.PageComment .profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.PageComment .profile img {
+    width: 32px;
+    height: 32px;
+}
+
+.PageComment .profile .textprofile {
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.PageComment .profile .textprofile span {
+    font-size: 13px;
+}
+
+.PageComment .profile .textprofile p {
+    font-size: 11px;
+    color: #B2B2B2;
+}
+
+.PageComment .Ptexts {
+    width: 320px;
+}
+
+.PageComment .Ptexts p {
+    font-size: 13px;
+}
+
+.PageComment .itemsComment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PageComment .itemsComment .itemCardComment1 {
+    display: flex;
+    align-items: center;
+}
+
+.PageComment .itemsComment .itemCardComment1 span {
+    font-size: 11px;
+    color: #B2B2B2;
+}
+
+.PageComment .itemsComment .itemCardComment1 .Commentone {
+margin-right: 15px;
+}
+
+.PageComment .itemsComment .itemCardComment1 .Commentone img {
+
+}
+
+.PageComment .itemsComment .itemCardComment1 .Commentone span {
+    color: #B2B2B2;
+    margin-right: 6px;
+}
+
+.PageComment .itemsComment .itemCardComment2 {
+}
+
+.PageComment .itemsComment .itemCardComment2 img {
+
+}
+
+.PageComment .itemsComment .itemCardComment2 span {
+    color: #B2B2B2;
+    font-size: 11px;
+    margin-right: 7px;
+}

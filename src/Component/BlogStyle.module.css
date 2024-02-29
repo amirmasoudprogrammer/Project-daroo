@@ -1,0 +1,275 @@
+.pagesBlog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    background-color: #eeeeee;
+}
+
+.pagesBlog .imgTextBlog {
+    margin-right: -12px;
+}
+
+.pagesBlog .imgTextBlog .imgBlogs {
+
+}
+
+.pagesBlog .imgTextBlog .imgBlogs img {
+    width: 363px;
+}
+
+.pagesBlog .imgTextBlog .imgPlay {
+
+}
+
+.pagesBlog .imgTextBlog .textItemBlog {
+    margin: 8px;
+    width: 328px;
+    margin-right: 24px;
+    margin-top: 15px;
+}
+
+.pagesBlog .imgTextBlog .textItemBlog span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pagesBlog .imgTextBlog .textItemBlog .ItemstextBlog {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.pagesBlog .imgTextBlog .textItemBlog .ItemstextBlog .itemone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pagesBlog .imgTextBlog .textItemBlog .ItemstextBlog .itemone .textcard {
+    width: 91px;
+    display: flex;
+    align-items: baseline;
+}
+
+.pagesBlog .imgTextBlog .textItemBlog .ItemstextBlog .itemone .textcard img {
+    width: 10px;
+}
+
+.pagesBlog .imgTextBlog .textItemBlog .ItemstextBlog .itemone .textcard span {
+    color: #B2B2B2;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+.pagesBlog .imgTextBlog .textItemBlog .ItemstextBlog .itemtwo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -23px;
+}
+
+.pagesBlog .imgTextBlog .textItemBlog .ItemstextBlog .itemtwo img {
+    margin-right: 25px;
+}
+
+.pagesBlog .textBlogs {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagesBlog .textBlogs .textCARDBlog {
+    width: 340px;
+    padding: 7px;
+}
+
+.pagesBlog .textBlogs .textCARDBlog p {
+    font-size: 13px;
+    color: black;
+}
+
+.pagesBlog .textBlogs span {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 7px;
+}
+
+.pagesBlog .textBlogs .ButtonBlog {
+    outline: none;
+    border: none;
+}
+.pagesBlog .textBlogs .ButtonBlog .Linktest{
+    margin-top: 10px;
+
+    background-color: #0157F0;
+    color: white;
+    display: flex;
+    width: 335px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pagesBlog .textBlogs .ButtonBlog .Linktest span {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 19px;
+    width: 19px;
+    text-align: center;
+    color: #0157F0;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.pagesBlog .textBlogs .ButtonBlog .Linktest h3 {
+    font-size: 12px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.pagesBlog .textBlogs .alerttext {
+    width: 335px;
+    background-color: #FFD200;
+    height: 60px;
+    border-radius: 10px;
+    opacity: 1;
+    visibility: visible;
+    transition: all .2s linear;
+}
+
+.pagesBlog .textBlogs .alerttext .linkeitems {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pagesBlog .textBlogs .alerttext .linkeitems .cardtextP {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.pagesBlog .textBlogs .alerttext .linkeitems .cardtextP .iconImg {
+    background-color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagesBlog .textBlogs .alerttext .linkeitems .cardtextP .textlinke {
+
+}
+
+.pagesBlog .textBlogs .alerttext .linkeitems .cardtextP .textlinke p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-right: 12px;
+}
+
+.pagesBlog .textBlogs .alerttext .linkeitems .iconsAngle {
+    margin-left: 20px;
+}
+
+.pagesBlog .textBlogs .alerttext .linkeitems .iconsAngle img {
+}
+
+.CommentCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+@media (max-width: 1500px) {
+    .CommentCard {
+display: none;
+    }
+
+    .pagesBlog {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .CommentCard {
+display: none;
+    }
+
+    .pagesBlog {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .CommentCard {
+display: none;
+    }
+
+    .pagesBlog {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .CommentCard {
+display: none;
+    }
+
+    .pagesBlog {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .CommentCard {
+display: none;
+    }
+
+    .pagesBlog {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .CommentCard {
+display: none;
+    }
+
+    .pagesBlog {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .CommentCard {
+        display: block;
+    }
+
+    .pagesBlog {
+        display: block;
+    }
+}
+
+

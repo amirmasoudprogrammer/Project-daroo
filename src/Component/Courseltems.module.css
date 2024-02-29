@@ -1,0 +1,38 @@
+.PageCourse {
+    direction: rtl;
+
+}
+
+.PageCourse img {
+
+}
+
+.PageCourse .Itemstext {
+    margin-top: 10px;
+    width: 285px;
+
+}
+
+.PageCourse .Itemstext span {
+    font-size: 14px;
+}
+
+.PageCourse .listCourse {
+    display: flex;
+    color: #B3B7C0;
+    justify-content: start;
+    align-items: self-start;
+    margin-top: 10px;
+}
+
+
+.PageCourse .listCourse span {
+font-size: 12px;
+}
+
+.PageCourse .listCourse .itemtext {
+margin-right: 15px;
+}
+.PageCourse .listCourse .itemtext span{
+    margin-right: 5px;
+}

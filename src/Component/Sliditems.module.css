@@ -1,0 +1,145 @@
+.item .pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.item .pages:before {
+    content: '';
+    background-color: rgba(0, 0, 0, .25);
+    width: 276px;
+    height: 166px;
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+    left: 7px;
+}
+
+.item:nth-child(1) .pages {
+    filter: blur(2px);
+}
+
+.item:nth-child(1) .pages .images img {
+    height: 176px;
+    margin-top: -6px;
+    object-fit: cover;
+}
+
+.item .pages .images img {
+    width: 276px;
+    height: 166px;
+}
+
+.item .pages .images {
+    margin: 8px;
+}
+
+.item:nth-child(3) .pages {
+
+    filter: blur(2px);
+}
+
+.item .pages .texts {
+    position: absolute;
+    top: 57%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: end;
+    right: 9%;
+}
+
+.item .pages .texts .cardtext1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.item .pages .texts div p {
+    display: contents;
+}
+
+.item .pages .texts .textCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item .pages .texts div .cardtext2 {
+    margin-left: 10px;
+    background-color: #FFD200;
+    padding: 3px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 55px;
+    height: 20px;
+    border-radius: 3px;
+    font-size: 0.7em;
+}
+
+.item .pages .texts div .cardtext2 span {
+    margin-right: 3px;
+}
+
+.item .pages .texts div .cardtext2 img {
+
+}
+
+.item .pages .texts div span img {
+    width: 14px;
+    height: 11px;
+}
+
+.item .pages .texts .textend {
+    margin-top: 10px;
+    font-size: .9em;
+}
+
+
+@media (max-width: 1500px) {
+   .item .pages {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+   .item  .pages {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .item .pages {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+   .item  .pages {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+   .item  .pages {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+   .item  .pages {
+        display: none;
+    }
+}
+@media (max-width: 360px) {
+    .item  .pages {
+        display: block;
+    }
+}
+
