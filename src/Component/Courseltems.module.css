@@ -29,46 +29,135 @@
 
 
 .PageCourse .listCourse span {
-font-size: 12px;
+    font-size: 12px;
 }
 
 .PageCourse .listCourse .itemtext {
-margin-right: 15px;
+    margin-right: 15px;
 }
-.PageCourse .listCourse .itemtext span{
+
+.PageCourse .listCourse .itemtext span {
     margin-right: 5px;
 }
 
-.itemsBooks{
+.itemsBooks {
     direction: rtl;
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-top: 20px;
+    margin-bottom: 30px;
     background-color: #ffffff;
 }
-.itemsBooks .itemCards{
+
+.itemsBooks .itemCards {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin: 10px;
 }
-.itemsBooks .itemCards img{
-margin-bottom: 10px;
+
+.itemsBooks .itemCards img {
+    margin-bottom: 10px;
 }
-.itemsBooks .itemCards span{
+
+.itemsBooks .itemCards span {
     font-size: 12px;
     border: 1px solid #eeeeee;
-    box-shadow: 0 1px 9px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.25);
     padding: 3px;
     border-radius: 15px;
     color: #9a9797;
     background-color: #ffffff;
     width: 86px;
     text-align: center;
-    height: 26px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: -10px;
 }
-.itemsBooks .itemCards p{
-font-size: 11px;
+
+.itemsBooks .itemCards p {
+    font-size: 11px;
+}
+
+.PagePrice {
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.PagePrice .PagePricetext {
+    margin-right: 25px;
+}
+
+.PagePrice .PagePricetext span {
+    font-size: 12px;
+}
+
+.PagePrice .Pagetext {
+    margin-left: 25px;
+    font-size: 12px;
+    color: #B2B2B2;
+}
+
+.PagePrice .Pagetext span {
+    font-size: 12px;
+    color: black;
+}
+
+.PagePrice .Pagetext del {
+    font-size: 12px;
+    color: red;
+}
+
+.buttonsPrice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.buttonsPrice button {
+    display: flex;
+    background-color: #0157F0;
+    width: 299px;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.buttonsPrice button span {
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+
+}
+
+.textPagePrice {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    justify-content: flex-end;
+    margin-left: -22px;
+}
+
+.textPagePrice span {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.textPagePrice .PricesTexts {
+    width: 263px;
+}
+
+.textPagePrice .PricesTexts p {
+    font-size: 12px;
+    text-align: end;
 }

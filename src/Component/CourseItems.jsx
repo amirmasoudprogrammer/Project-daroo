@@ -8,6 +8,7 @@ import img5 from "../assets/svgexport-16.png"
 import img6 from "../assets/svgexport-17.png"
 import img7 from "../assets/svgexport-18.png"
 import img8 from "../assets/svgexport-19.png"
+import img9 from "../assets/Subtraction 825.svg"
 
 const CourseItems = () => {
     return (
@@ -65,7 +66,30 @@ const CourseItems = () => {
 
                 </div>
             </div>
-            
+            <div className={styles.PagePrice}>
+                <div className={styles.PagePricetext}>
+                    <span>قیمت دوره</span>
+                </div>
+                <div className={styles.Pagetext}>
+                    <span>1.900.000</span>
+                    <del>2.200.000</del>تومان
+                </div>
+            </div>
+            <div className={styles.buttonsPrice}>
+                <button>
+                    <img src={img9} alt="icons"/>
+                    <span>خرید آنی این دوره</span>
+                </button>
+            </div>
+            <div className={styles.textPagePrice}>
+                <span>توضیحات دوره</span>
+                <div className={styles.PricesTexts}>
+                    <p>نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌ بندی را به پایان برند.
+                        از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                    </p>
+                </div>
+            </div>
+            <div></div>
         </>
     );
 };
