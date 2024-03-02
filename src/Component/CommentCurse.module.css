@@ -1,0 +1,84 @@
+.PagesCommentCou {
+    display: flex;
+    direction: rtl;
+    align-items: center;
+}
+
+.PagesCommentCou .PageComments {
+    margin-top: 10px;
+    background-color: #F2F7F9;
+    width: 335px;
+    height: 195px;
+    padding-right: 14px;
+    padding-top: 5px;
+    border-radius: 10px;
+
+}
+
+.PagesCommentCou .PageComments .CourseItems {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.PagesCommentCou .PageComments .CourseItems img {
+
+}
+
+.PagesCommentCou .PageComments .CourseItems .biuText {
+    margin-right: 10px;
+    margin-top: 14px;
+}
+
+.PagesCommentCou .PageComments .CourseItems .biuText span {
+    font-size: 13px;
+}
+
+.PagesCommentCou .PageComments .CourseItems .biuText p {
+    font-size: 11px;
+    color: #B2B2B2;
+}
+
+.PagesCommentCou .PageComments .ItemsTEXT {
+    width: 262px;
+}
+
+.PagesCommentCou .PageComments .ItemsTEXT p {
+    font-size: 13px;
+}
+
+.PagesCommentCou .PageComments .ItemsICons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.PagesCommentCou .PageComments .ItemsICons .Iconitems {
+    margin-left: 15px;
+}
+
+.PagesCommentCou .PageComments .ItemsICons .Iconitems img {
+}
+
+.PagesCommentCou .PageComments .ItemsICons .Iconitems span {
+    font-size: 11px;
+    color: #B2B2B2;
+    margin-right: 5px;
+}
+
+.PagesCommentCou .PageComments .ItemsICons .Iconitems:nth-child(1) span {
+    font-size: 12px;
+    color: #0856DD;
+}
+
+.PagesCommentCou .imgCommentsicons {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+
+}
+
+.PagesCommentCou:hover .imgCommentsicons {
+    opacity: 1;
+    visibility: visible;
+    padding: 10px;
+}

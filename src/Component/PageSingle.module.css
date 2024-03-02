@@ -11,6 +11,7 @@
     display: flex;
 
 }
+
 .Links .PageImg img {
     width: 100px;
     height: 65px;
@@ -44,43 +45,45 @@
     font-size: 10px;
     margin-right: 5px;
 }
+
 @media (max-width: 1500px) {
-  .Links{
-      display: none;
-  }
+    .Links {
+        display: none;
+    }
 }
 
 @media (max-width: 1400px) {
-    .Links{
+    .Links {
         display: none;
     }
 }
 
 @media (max-width: 1200px) {
-    .Links{
+    .Links {
         display: none;
     }
 }
 
 @media (max-width: 992px) {
-    .Links{
+    .Links {
         display: none;
     }
 }
 
 @media (max-width: 768px) {
-    .Links{
+    .Links {
         display: none;
     }
 }
 
 @media (max-width: 576px) {
-    .Links{
+    .Links {
         display: none;
     }
 }
+
 @media (max-width: 360px) {
-    .Links{
+    .Links {
         display: block;
     }
 }

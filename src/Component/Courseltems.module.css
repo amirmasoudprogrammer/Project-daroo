@@ -1,12 +1,7 @@
 .PageCourse {
     direction: rtl;
     margin-bottom: 50px;
-
-
-}
-
-.PageCourse img {
-
+    margin-left: 10px;
 }
 
 .PageCourse .Itemstext {
@@ -146,6 +141,7 @@
     align-items: self-end;
     justify-content: flex-end;
     margin-left: -22px;
+    margin-bottom: 30px;
 }
 
 .textPagePrice span {
@@ -161,3 +157,332 @@
     font-size: 12px;
     text-align: end;
 }
+
+.textVideoPage {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    margin: -22px;
+    margin-bottom: 30px;
+}
+
+.textVideoPage h5 {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.textVideoPage .PagePlaytext {
+    margin-top: 8px;
+}
+
+.textVideoPage .PagePlaytext p {
+    font-size: 12px;
+}
+
+.textVideoPage .PagePlaytext .Playitems {
+    margin-right: 17px;
+}
+
+.textVideoPage .PagePlaytext .Playitems .itemPagesPlay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 60px;
+    border: 1px solid #F1F1F1;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.textVideoPage .PagePlaytext .Playitems .itemPagesPlay .iconsText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.textVideoPage .PagePlaytext .Playitems .itemPagesPlay .iconsText .textCardPlay {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    width: 130px;
+    margin-right: 11px;
+}
+
+
+.textVideoPage .PagePlaytext .Playitems .itemPagesPlay .iconsText .textCardPlay .itemone span {
+    font-size: 12px;
+}
+
+.textVideoPage .PagePlaytext .Playitems .itemPagesPlay .iconsText .textCardPlay .itemtwo {
+    display: flex;
+}
+
+.textVideoPage .PagePlaytext .Playitems .itemPagesPlay .iconsText .textCardPlay .itemtwo span {
+    color: #B2B2B2;
+    font-size: 10px;
+}
+
+.textVideoPage .PagePlaytext .Playitems .itemPagesPlay .iconsText .textCardPlay .itemtwo p {
+    font-size: 10px;
+    background-color: #0157F0;
+    color: white;
+    border-radius: 15px;
+    width: 59px;
+    height: 16px;
+    margin-left: -5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonPageC {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    margin-bottom: 20px;
+
+}
+
+.buttonPageC span {
+    font-size: 13px;
+}
+
+.buttonPageC button {
+    border-radius: 7px;
+    margin-top: 20px;
+    display: flex;
+    width: 335px;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background-color: #0157F0;
+    color: white;
+}
+
+.buttonPageC button .iconsButtons {
+    height: 16px;
+    width: 16px;
+    background-color: #ffffff;
+    color: #0157F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+
+}
+
+.buttonPageC button .iconsButtons span {
+    font-size: 20px;
+}
+
+.buttonPageC button p {
+    margin-right: 10px;
+    margin-top: 17px;
+    font-size: 12px;
+}
+
+.CommentsCourseitems {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (max-width: 1500px) {
+    .PageCourse{
+        display: none;
+    }
+    .itemsBooks{
+        display: none;
+    }
+    .PagePrice{
+        display: none;
+    }
+    .buttonsPrice{
+        display: none;
+    }
+    .textPagePrice{
+        display: none;
+    }
+    .textVideoPage{
+        display: none;
+    }
+    .buttonPageC{
+        display: none;
+    }
+    .CommentsCourseitems{
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .PageCourse{
+        display: none;
+    }
+    .itemsBooks{
+        display: none;
+    }
+    .PagePrice{
+        display: none;
+    }
+    .buttonsPrice{
+        display: none;
+    }
+    .textPagePrice{
+        display: none;
+    }
+    .textVideoPage{
+        display: none;
+    }
+    .buttonPageC{
+        display: none;
+    }
+    .CommentsCourseitems{
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .PageCourse{
+        display: none;
+    }
+    .itemsBooks{
+        display: none;
+    }
+    .PagePrice{
+        display: none;
+    }
+    .buttonsPrice{
+        display: none;
+    }
+    .textPagePrice{
+        display: none;
+    }
+    .textVideoPage{
+        display: none;
+    }
+    .buttonPageC{
+        display: none;
+    }
+    .CommentsCourseitems{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .PageCourse{
+        display: none;
+    }
+    .itemsBooks{
+        display: none;
+    }
+    .PagePrice{
+        display: none;
+    }
+    .buttonsPrice{
+        display: none;
+    }
+    .textPagePrice{
+        display: none;
+    }
+    .textVideoPage{
+        display: none;
+    }
+    .buttonPageC{
+        display: none;
+    }
+    .CommentsCourseitems{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .PageCourse{
+        display: none;
+    }
+    .itemsBooks{
+        display: none;
+    }
+    .PagePrice{
+        display: none;
+    }
+    .buttonsPrice{
+        display: none;
+    }
+    .textPagePrice{
+        display: none;
+    }
+    .textVideoPage{
+        display: none;
+    }
+    .buttonPageC{
+        display: none;
+    }
+    .CommentsCourseitems{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .PageCourse{
+        display: none;
+    }
+    .itemsBooks{
+        display: none;
+    }
+    .PagePrice{
+        display: none;
+    }
+    .buttonsPrice{
+        display: none;
+    }
+    .textPagePrice{
+        display: none;
+    }
+    .textVideoPage{
+        display: none;
+    }
+    .buttonPageC{
+        display: none;
+    }
+    .CommentsCourseitems{
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .PageCourse{
+        display: block;
+    }
+    .itemsBooks{
+        display: grid;
+    }
+    .PagePrice{
+        display: flex;
+    }
+    .buttonsPrice{
+        display: flex;
+    }
+    .textPagePrice{
+        display: flex;
+    }
+    .textVideoPage{
+        display: block;
+    }
+    .buttonPageC{
+        display: block;
+    }
+    .CommentsCourseitems{
+        display: flex;
+    }
+}
+
